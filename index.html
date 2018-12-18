@@ -1,61 +1,272 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    	<title>Danny Lin</title>
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="stylesheet" type="text/css" href="css/bulma.min.css">
-    	<link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    </head>
-    <body>
-    	<nav class="navbar is-black" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
+
+<head>
+  <title>Danny Lin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="static/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbar" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#top">
+          Home
+        </a>
+        <a class="navbar-item" href="#about">
+          About
+        </a>
+        <a class="navbar-item" href="#projects">
+          Projects
+        </a>
+        <a class="navbar-item" href="#resume">
+          Resume
+        </a>
+        <a class="navbar-item" href="#contact">
+          Contact
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <section id="main">
+      <div class="avatar"></div>
+      <h1 class="title is-1" id="brand">Danny Lin</h1>
+      <h6 class="subtitle is-6">
+        NEW YORK UNIVERSITY</h3>
+        <p class="description">
+          Engineering student interested in data science, full-stack development, and finance. Studying Computer
+          Science as a
+          senior at New York University. Side passions include food photography, basketball, and traveling.
+        </p>
+    </section>
+    <hr class="hr">
+    <section id="about">
+      <h3 class="title is-3 header">Background</h3>
+      <h5 class="title is-5" style="text-align: left;">Education</h5>
+      <div class="columns">
+        <div class="column logo-setting" style="text-align: left;">
+          <img class="logo" src="static/img/nyu.jpg">
+          <div>
+            <strong>New York University</strong>
+            <h6>Computer Science '19</h6>
           </div>
-          <div id="navbar" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item" href="index.html">
-                Home
-              </a>
-              <a class="navbar-item">
-                About
-              </a>
-              <a class="navbar-item">
-                Projects
-              </a>
-              <a class="navbar-item">
-                Resume
-              </a>
-              <a class="navbar-item" href="contact.html">
-                Contact
-              </a>
+        </div>
+      </div>
+      <h5 class="title is-5" style="text-align: left;">Work</h5>
+      <div class="columns">
+        <div class="column logo-setting" style="text-align: left;">
+          <img class="logo" src="static/img/gs.png">
+          <div>
+            <strong>Goldman Sachs</strong>
+            <h6>GIR Technology</h6>
+          </div>
+        </div>
+        <div class="column logo-setting" style="text-align: left;">
+          <img class="logo" src="static/img/combrr.jpg">
+          <div>
+            <strong>Combrr</strong>
+            <h6>Full-stack Development</h6>
+          </div>
+        </div>
+        <div class="column logo-setting" style="text-align: left;">
+          <img class="logo" src="static/img/ibm.jpg">
+          <div>
+            <strong>IBM</strong>
+            <h6>API Connect Monetization</h6>
+          </div>
+        </div>
+        <div class="column logo-setting" style="text-align: left;">
+          <img class="logo" src="static/img/sparemin.webp">
+          <div>
+            <strong>Sparemin</strong>
+            <h6>iOS Platform</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="hr">
+    <section id="projects">
+      <h3 class="title is-3 header">Projects</h3>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/img/grubrepublic.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <p class="title is-4">GrubRepublic</p>
+              </div>
+              <div class="content">
+                Platform for connecting food influencers from Instagram with restaurants and brands. Currently building
+                using MEAN.
+                <br>
+              </div>
             </div>
           </div>
-        </nav>
-    	<div class="container">
-            <section id="main">
-                <div class="avatar"></div>
-                <h1 class="title is-1" id="brand">Danny Lin</h1>
-                <h5 class="subtitle is-5">NEW YORK UNIVERSITY</h3>
-            </section>
         </div>
-        <footer class="footer">
-          <div class="content has-text-centered">
-            <ul class="social-links">
-                <li><a class="social-link" href="http://linkedin.com/in/dannywlin"><i class="fab fa-linkedin"></i></a></li>
-                <li><a class="social-link" href="http://github.com/dannnylin"><i class="fab fa-github"></i></a></li>
-                <li><a class="social-link" href="http://instagram.com/dannnylin"><i class="fab fa-instagram"></i></a></li>
-                <li><a class="social-link" href="mailto:dannywlin96@gmail.com"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-            <p>
-                Built by Danny Lin in 2018
-            </p>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/img/grubber.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <p class="title is-4">Grubber</p>
+              </div>
+              <div class="content">
+                Tinder inspired restaurant searching web application built using React.js, Flask, and MongoDB.
+                <br>
+              </div>
+            </div>
           </div>
-        </footer>
-    </body>
-    <script src="js/navburger.js"></script>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/img/checkers.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <p class="title is-4">Checkers AI</p>
+              </div>
+              <div class="content">
+                Checkers using PyGame with a built in AI that uses Alpha-Beta Search Algorithm to determine the next
+                best move.
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/img/clothly.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <p class="title is-4">Clothly</p>
+              </div>
+              <div class="content">
+                Interactive clothing donation mobile app that bridges donors and organizations. Built using Swift,
+                MariaDB, and
+                Flask.
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/img/bachchain.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <p class="title is-4">BachChain</p>
+              </div>
+              <div class="content">
+                Multimedia content sharing app using smart contracts to pay artists and labels. Built using Go,
+                Node.js, and MongoDB.
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="static/img/openpantry.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <p class="title is-4">OpenPantry</p>
+              </div>
+              <div class="content">
+                iOS app that searches for recipes using specific ingredients. Utilizes visual recognition and Swift.
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="hr">
+    <section id="resume">
+      <h3 class="title is-3 header">Resume</h3>
+      <p style="text-align: center;">
+        To learn more about me, acopy of my resume can be found <a href="static/docs/DannyLin_resume.pdf" target="_blank"><i
+            class="fa fa-file" aria-hidden="true"></i> here</a>.
+      </p>
+    </section>
+    <hr class="hr">
+    <section id="contact">
+      <h3 class="title is-3 header">Get in Touch</h3>
+      <form action="https://formspree.io/dannywlin96@gmail.com" method="POST" />
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" name="name" placeholder="First Last..." required />
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" name="_replyto" type="email" placeholder="Email Address..." required />
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" name="message" placeholder="Message..." required></textarea>
+        </div>
+      </div>
+      <input type="hidden" name="_next" value="index.html">
+      <button class="button is-primary">Submit</button>
+  </div>
+  </form>
+  </section>
+  </div>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <ul class="social-links">
+        <li><a class="social-link" href="http://linkedin.com/in/dannywlin"><i class="fab fa-linkedin"></i></a></li>
+        <li><a class="social-link" href="http://github.com/dannnylin"><i class="fab fa-github"></i></a></li>
+        <li><a class="social-link" href="http://instagram.com/dannnylin"><i class="fab fa-instagram"></i></a></li>
+        <li><a class="social-link" href="mailto:dannywlin96@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+      <p>
+        Built by Danny Lin in 2018.
+      </p>
+    </div>
+  </footer>
+</body>
+<script src="static/js/navburger.js"></script>
+
 </html>
